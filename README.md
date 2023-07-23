@@ -7,7 +7,7 @@
 * Module 5
 * July 23, 2023
 
-* The purpose of this project is to practice incorporating continuous updates into an interactive app. This will be done using both the Open Weather API and the Yahoo Finance API to provide updated weather and stock information.
+* The purpose of this project is to practice incorporating continuous updates into an interactive app. This will be done using both the Open Weather API and the Yahoo Finance API to provide updated weather and stock information
 -----
 
 ## Copy This Repository
