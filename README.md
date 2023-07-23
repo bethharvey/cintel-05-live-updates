@@ -1,9 +1,13 @@
 # Continuous Intelligence App
 
-- Repository: [cintel-05-live-updates](https://github.com/denisecase/cintel-05-live-updates)
-- Website: [cintel-05-live-updates](https://denisecase.github.io/cintel-05-live-updates/)
-- Author: [Denise Case](https://github.com/denisecase)
+- Repository: [cintel-05-live-updates](https://github.com/bethharvey/cintel-05-live-updates)
+- Website: [cintel-05-live-updates](https://bethharvey.github.io/cintel-05-live-updates/)
+- Author: [Beth Harvey](https://github.com/bethharvey)
 
+* Module 5
+* July 23, 2023
+
+* The purpose of this project is to practice incorporating continuous updates into an interactive app. This will be done using both the Open Weather API and the Yahoo Finance API to provide updated weather and stock information.
 -----
 
 ## Copy This Repository
