@@ -1,23 +1,23 @@
-2023-07-24 15:07:55,923.mtcars_server.INFO =============================================================
-2023-07-24 15:07:55,923.mtcars_server.INFO Today is 2023-07-24 at 03:07 PM
-2023-07-24 15:07:55,923.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
-2023-07-24 15:07:55,923.mtcars_server.INFO The Python version is: 3.9.12
-2023-07-24 15:07:55,923.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-07-24 15:07:55,923.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-07-24 15:07:55,923.mtcars_server.INFO =============================================================
-2023-07-24 15:07:57,922.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-07-24 15:07:57,971.mtcars_server.INFO Starting mtcars_output_widget1
-2023-07-24 15:07:58,175.mtcars_server.INFO Starting mtcars_plot1
-2023-07-24 15:07:59,168.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-24 15:07:59,169.mtcars_server.INFO READING df len 3
-2023-07-24 15:07:59,170.mtcars_server.INFO init reactive_temp_df len: 3
-2023-07-24 15:07:59,170.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-24 15:07:59,170.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-07-26 14:30:41,619.mtcars_server.INFO =============================================================
+2023-07-26 14:30:41,619.mtcars_server.INFO Today is 2023-07-26 at 02:30 PM
+2023-07-26 14:30:41,619.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
+2023-07-26 14:30:41,619.mtcars_server.INFO The Python version is: 3.9.12
+2023-07-26 14:30:41,619.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-07-26 14:30:41,619.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-07-26 14:30:41,619.mtcars_server.INFO =============================================================
+2023-07-26 14:30:44,995.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-07-26 14:30:45,043.mtcars_server.INFO Starting mtcars_output_widget1
+2023-07-26 14:30:45,249.mtcars_server.INFO Starting mtcars_plot1
+2023-07-26 14:30:46,297.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-26 14:30:46,300.mtcars_server.INFO READING df len 3
+2023-07-26 14:30:46,300.mtcars_server.INFO init reactive_temp_df len: 3
+2023-07-26 14:30:46,300.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-26 14:30:46,300.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-24 15:07:59,170.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-24 15:07:59,172.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-24 15:07:59,222.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-24 15:07:59,223.mtcars_server.INFO READING df len 3
-2023-07-24 15:07:59,224.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-24 15:07:59,225.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-26 14:30:46,302.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-26 14:30:46,303.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-26 14:30:47,149.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-26 14:30:47,154.mtcars_server.INFO READING df len 3
+2023-07-26 14:30:47,156.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-26 14:30:47,160.mtcars_server.INFO Rendering TEMP chart with 1 points
