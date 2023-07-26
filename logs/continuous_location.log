@@ -1,19 +1,7 @@
-2023-07-23 16:54:10,939.continuous_location.INFO =============================================================
-2023-07-23 16:54:10,940.continuous_location.INFO Today is 2023-07-23 at 04:54 PM
-2023-07-23 16:54:10,940.continuous_location.INFO This file is running on: posix Darwin 22.5.0
-2023-07-23 16:54:10,940.continuous_location.INFO The Python version is: 3.9.12
-2023-07-23 16:54:10,940.continuous_location.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-07-23 16:54:10,940.continuous_location.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-07-23 16:54:10,940.continuous_location.INFO =============================================================
-2023-07-23 16:54:35,577.continuous_location.INFO Calling update_csv_location
-2023-07-23 16:54:35,577.continuous_location.INFO update_interval: 60
-2023-07-23 16:54:35,577.continuous_location.INFO total_runtime: 900
-2023-07-23 16:54:35,577.continuous_location.INFO num_updates: 10
-2023-07-23 16:54:35,577.continuous_location.INFO Initialized csv file at /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-23 16:54:35,577.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-23 16:54:35,577.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
-2023-07-23 16:54:35,577.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-23 16:54:35,578.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
-2023-07-23 16:54:35,578.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-23 16:54:35,578.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
-2023-07-23 16:54:35,580.continuous_location.INFO Saving temperatures to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-25 12:34:33,399.continuous_location.INFO =============================================================
+2023-07-25 12:34:33,399.continuous_location.INFO Today is 2023-07-25 at 12:34 PM
+2023-07-25 12:34:33,399.continuous_location.INFO This file is running on: posix Darwin 22.5.0
+2023-07-25 12:34:33,399.continuous_location.INFO The Python version is: 3.9.12
+2023-07-25 12:34:33,399.continuous_location.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-07-25 12:34:33,400.continuous_location.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-07-25 12:34:33,400.continuous_location.INFO =============================================================

@@ -79,10 +79,10 @@ async def get_temperature_from_openweathermap(lat, long):
     api_key = get_API_key()
     open_weather_url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={long}&appid={api_key}&units=imperial"
     logger.info(f"Calling fetch_from_url for {open_weather_url}")
-    # result = await fetch_from_url(open_weather_url, "json")
-    # logger.info(f"Data from openweathermap: {result}")
-    # temp_F = data["main"]["temp"]
-    temp_F = randint(68, 77)
+    result = await fetch_from_url(open_weather_url, "json")
+    logger.info(f"Data from openweathermap: {result}")
+    temp_F = data["main"]["temp"]
+    # temp_F = randint(68, 77)  # Use to test code without calling API
     return temp_F
 
 
