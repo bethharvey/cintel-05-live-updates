@@ -39,9 +39,9 @@ def lookup_ticker(company):
 # Takes ticker string and returns current stock price (asynchronous)
 async def get_stock_price(ticker):
     logger.info(f"Calling get_stock_price for {ticker}")
-    stock = yf.Ticker(ticker)
-    price = stock.info['currentPrice']
-    # price = randint(132, 148)   # Use to test code without calling API
+    # stock = yf.Ticker(ticker)
+    # price = stock.info["currentPrice"]
+    price = randint(132, 148)   # Use to test code without calling API
     return price
 
 
@@ -105,4 +105,3 @@ async def update_csv_stock():
 
     except Exception as e:
         logger.error(f"ERROR in update_csv_stock: {e}")
-
