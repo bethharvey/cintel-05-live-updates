@@ -1,23 +1,27 @@
-2023-07-26 14:30:41,619.mtcars_server.INFO =============================================================
-2023-07-26 14:30:41,619.mtcars_server.INFO Today is 2023-07-26 at 02:30 PM
-2023-07-26 14:30:41,619.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
-2023-07-26 14:30:41,619.mtcars_server.INFO The Python version is: 3.9.12
-2023-07-26 14:30:41,619.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-07-26 14:30:41,619.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-07-26 14:30:41,619.mtcars_server.INFO =============================================================
-2023-07-26 14:30:44,995.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-07-26 14:30:45,043.mtcars_server.INFO Starting mtcars_output_widget1
-2023-07-26 14:30:45,249.mtcars_server.INFO Starting mtcars_plot1
-2023-07-26 14:30:46,297.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-26 14:30:46,300.mtcars_server.INFO READING df len 3
-2023-07-26 14:30:46,300.mtcars_server.INFO init reactive_temp_df len: 3
-2023-07-26 14:30:46,300.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-26 14:30:46,300.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-07-28 16:30:51,680.mtcars_server.INFO =============================================================
+2023-07-28 16:30:51,680.mtcars_server.INFO Today is 2023-07-28 at 04:30 PM
+2023-07-28 16:30:51,680.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
+2023-07-28 16:30:51,680.mtcars_server.INFO The Python version is: 3.9.12
+2023-07-28 16:30:51,680.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-07-28 16:30:51,680.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-07-28 16:30:51,680.mtcars_server.INFO =============================================================
+2023-07-28 16:30:54,362.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-07-28 16:30:54,453.mtcars_server.INFO Starting mtcars_output_widget1
+2023-07-28 16:30:54,720.mtcars_server.INFO Starting mtcars_plot1
+2023-07-28 16:30:57,384.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-28 16:30:57,389.mtcars_server.INFO READING df len 3
+2023-07-28 16:30:57,389.mtcars_server.INFO init reactive_temp_df len: 3
+2023-07-28 16:30:57,389.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-28 16:30:57,389.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-26 14:30:46,302.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-26 14:30:46,303.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-26 14:30:47,149.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-26 14:30:47,154.mtcars_server.INFO READING df len 3
-2023-07-26 14:30:47,156.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-26 14:30:47,160.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-28 16:30:57,391.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-28 16:30:57,392.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-28 16:30:59,517.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-28 16:30:59,522.mtcars_server.INFO READING df len 3
+2023-07-28 16:30:59,524.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-28 16:30:59,529.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-28 16:31:58,883.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-28 16:31:58,889.mtcars_server.INFO READING df len 6
+2023-07-28 16:31:58,890.mtcars_server.INFO Rendering TEMP table with 2 rows
+2023-07-28 16:31:58,895.mtcars_server.INFO Rendering TEMP chart with 2 points
