@@ -81,10 +81,11 @@ async def get_temperature_from_openweathermap(lat, long):
     logger.info(f"Calling fetch_from_url for {open_weather_url}")
     result = await fetch_from_url(open_weather_url, "json")
     logger.info(f"Data from openweathermap: {result}")
-    # temp_F = data["main"]["temp"]
-    temp_F = randint(68, 77)  # Use to test code without calling API
+    temp_F = result.data["main"]["temp"]
+    # temp_F = randint(68, 77)  # Use to test code without calling API
     return temp_F
 
+print(get_temperature_from_openweathermap(47.903237,-91.867087))
 
 # Function to create or overwrite the CSV file with column headings
 def init_csv_file(file_path):
