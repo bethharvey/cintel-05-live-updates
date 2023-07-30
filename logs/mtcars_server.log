@@ -1,38 +1,23 @@
-2023-07-28 16:49:45,455.mtcars_server.INFO =============================================================
-2023-07-28 16:49:45,455.mtcars_server.INFO Today is 2023-07-28 at 04:49 PM
-2023-07-28 16:49:45,455.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
-2023-07-28 16:49:45,455.mtcars_server.INFO The Python version is: 3.9.12
-2023-07-28 16:49:45,455.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-07-28 16:49:45,455.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-07-28 16:49:45,455.mtcars_server.INFO =============================================================
-2023-07-28 16:49:47,937.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-07-28 16:49:47,986.mtcars_server.INFO Starting mtcars_output_widget1
-2023-07-28 16:49:48,192.mtcars_server.INFO Starting mtcars_plot1
-2023-07-28 16:49:49,224.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-28 16:49:49,227.mtcars_server.INFO READING df len 6
-2023-07-28 16:49:49,227.mtcars_server.INFO init reactive_temp_df len: 6
-2023-07-28 16:49:49,227.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-28 16:49:49,227.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-07-30 14:19:15,188.mtcars_server.INFO =============================================================
+2023-07-30 14:19:15,188.mtcars_server.INFO Today is 2023-07-30 at 02:19 PM
+2023-07-30 14:19:15,188.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
+2023-07-30 14:19:15,188.mtcars_server.INFO The Python version is: 3.9.12
+2023-07-30 14:19:15,188.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-07-30 14:19:15,189.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-07-30 14:19:15,189.mtcars_server.INFO =============================================================
+2023-07-30 14:19:17,016.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-07-30 14:19:17,066.mtcars_server.INFO Starting mtcars_output_widget1
+2023-07-30 14:19:17,359.mtcars_server.INFO Starting mtcars_plot1
+2023-07-30 14:19:18,432.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-30 14:19:18,435.mtcars_server.INFO READING df len 6
+2023-07-30 14:19:18,435.mtcars_server.INFO init reactive_temp_df len: 6
+2023-07-30 14:19:18,435.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-30 14:19:18,435.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-28 16:49:49,228.mtcars_server.INFO Rendering TEMP table with 2 rows
-2023-07-28 16:49:49,230.mtcars_server.INFO Rendering TEMP chart with 2 points
-2023-07-28 16:49:50,782.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-28 16:49:50,786.mtcars_server.INFO READING df len 3
-2023-07-28 16:49:50,787.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-28 16:49:50,791.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-28 16:50:21,382.mtcars_server.INFO init reactive_temp_df len: 3
-2023-07-28 16:50:21,383.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-28 16:50:21,383.mtcars_server.INFO Recent Temperature in F for Death Valley CA.
-Updated once per minute for 15 minutes.
-Keeps the most recent 10 minutes of data.
-2023-07-28 16:50:21,385.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-28 16:50:21,392.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-28 16:50:50,337.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-28 16:50:50,342.mtcars_server.INFO READING df len 6
-2023-07-28 16:50:50,344.mtcars_server.INFO Rendering TEMP table with 2 rows
-2023-07-28 16:50:50,349.mtcars_server.INFO Rendering TEMP chart with 2 points
-2023-07-28 16:51:50,842.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-07-28 16:51:50,847.mtcars_server.INFO READING df len 9
-2023-07-28 16:51:50,848.mtcars_server.INFO Rendering TEMP table with 3 rows
-2023-07-28 16:51:50,852.mtcars_server.INFO Rendering TEMP chart with 3 points
+2023-07-30 14:19:18,437.mtcars_server.INFO Rendering TEMP table with 2 rows
+2023-07-30 14:19:18,438.mtcars_server.INFO Rendering TEMP chart with 2 points
+2023-07-30 14:19:19,952.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-07-30 14:19:19,956.mtcars_server.INFO READING df len 3
+2023-07-30 14:19:19,958.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-30 14:19:19,963.mtcars_server.INFO Rendering TEMP chart with 1 points
