@@ -1,28 +1,76 @@
-2023-07-30 14:19:14,596.continuous_stock.INFO =============================================================
-2023-07-30 14:19:14,596.continuous_stock.INFO Today is 2023-07-30 at 02:19 PM
-2023-07-30 14:19:14,596.continuous_stock.INFO This file is running on: posix Darwin 22.5.0
-2023-07-30 14:19:14,596.continuous_stock.INFO The Python version is: 3.9.12
-2023-07-30 14:19:14,596.continuous_stock.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-07-30 14:19:14,596.continuous_stock.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-07-30 14:19:14,596.continuous_stock.INFO =============================================================
-2023-07-30 14:19:19,053.continuous_stock.INFO Calling update_csv_stock
-2023-07-30 14:19:19,053.continuous_stock.INFO update_interval: 60
-2023-07-30 14:19:19,053.continuous_stock.INFO total_runtime: 900
-2023-07-30 14:19:19,053.continuous_stock.INFO num_updates: 10
-2023-07-30 14:19:19,053.continuous_stock.INFO Initialized csv file at /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
-2023-07-30 14:19:19,054.continuous_stock.INFO Calling get_stock_price for TSLA
-2023-07-30 14:19:19,054.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
-2023-07-30 14:19:19,278.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7fc8c9feb910>
-2023-07-30 14:19:19,279.continuous_stock.INFO Calling get_stock_price for GM
-2023-07-30 14:19:19,279.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
-2023-07-30 14:19:19,541.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7fc8c9feb1f0>
-2023-07-30 14:19:19,541.continuous_stock.INFO Calling get_stock_price for TM
-2023-07-30 14:19:19,541.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
-2023-07-30 14:19:19,653.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7fc8c9feb160>
-2023-07-30 14:19:19,654.continuous_stock.INFO Calling get_stock_price for F
-2023-07-30 14:19:19,654.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
-2023-07-30 14:19:19,840.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7fc8c9feb910>
-2023-07-30 14:19:19,841.continuous_stock.INFO Calling get_stock_price for HMC
-2023-07-30 14:19:19,841.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
-2023-07-30 14:19:19,942.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7fc8c9feb1f0>
-2023-07-30 14:19:19,949.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-07-30 14:45:05,163.continuous_stock.INFO =============================================================
+2023-07-30 14:45:05,163.continuous_stock.INFO Today is 2023-07-30 at 02:45 PM
+2023-07-30 14:45:05,163.continuous_stock.INFO This file is running on: posix Darwin 22.5.0
+2023-07-30 14:45:05,163.continuous_stock.INFO The Python version is: 3.9.12
+2023-07-30 14:45:05,163.continuous_stock.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-07-30 14:45:05,163.continuous_stock.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-07-30 14:45:05,163.continuous_stock.INFO =============================================================
+2023-07-30 14:45:09,781.continuous_stock.INFO Calling update_csv_stock
+2023-07-30 14:45:09,782.continuous_stock.INFO update_interval: 60
+2023-07-30 14:45:09,782.continuous_stock.INFO total_runtime: 900
+2023-07-30 14:45:09,782.continuous_stock.INFO num_updates: 50
+2023-07-30 14:45:09,782.continuous_stock.INFO Initialized csv file at /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-07-30 14:45:09,782.continuous_stock.INFO Calling get_stock_price for TSLA
+2023-07-30 14:45:09,782.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
+2023-07-30 14:45:10,050.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a887b48e0>
+2023-07-30 14:45:10,050.continuous_stock.INFO Calling get_stock_price for GM
+2023-07-30 14:45:10,051.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
+2023-07-30 14:45:10,205.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a887b42e0>
+2023-07-30 14:45:10,206.continuous_stock.INFO Calling get_stock_price for TM
+2023-07-30 14:45:10,207.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
+2023-07-30 14:45:10,402.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a887b4b50>
+2023-07-30 14:45:10,403.continuous_stock.INFO Calling get_stock_price for F
+2023-07-30 14:45:10,403.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
+2023-07-30 14:45:10,547.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a887b4940>
+2023-07-30 14:45:10,548.continuous_stock.INFO Calling get_stock_price for HMC
+2023-07-30 14:45:10,548.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
+2023-07-30 14:45:10,655.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a887b4910>
+2023-07-30 14:45:10,664.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-07-30 14:46:10,665.continuous_stock.INFO Calling get_stock_price for TSLA
+2023-07-30 14:46:10,666.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
+2023-07-30 14:46:10,892.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a8883e940>
+2023-07-30 14:46:10,893.continuous_stock.INFO Calling get_stock_price for GM
+2023-07-30 14:46:10,893.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
+2023-07-30 14:46:11,033.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a8883e400>
+2023-07-30 14:46:11,034.continuous_stock.INFO Calling get_stock_price for TM
+2023-07-30 14:46:11,034.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
+2023-07-30 14:46:11,150.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a8883e4c0>
+2023-07-30 14:46:11,151.continuous_stock.INFO Calling get_stock_price for F
+2023-07-30 14:46:11,151.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
+2023-07-30 14:46:11,379.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a8883e940>
+2023-07-30 14:46:11,380.continuous_stock.INFO Calling get_stock_price for HMC
+2023-07-30 14:46:11,380.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
+2023-07-30 14:46:11,483.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a8883e400>
+2023-07-30 14:46:11,489.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-07-30 14:47:11,491.continuous_stock.INFO Calling get_stock_price for TSLA
+2023-07-30 14:47:11,492.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
+2023-07-30 14:47:11,701.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a53f1c0>
+2023-07-30 14:47:11,702.continuous_stock.INFO Calling get_stock_price for GM
+2023-07-30 14:47:11,702.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
+2023-07-30 14:47:11,917.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a53f1c0>
+2023-07-30 14:47:11,918.continuous_stock.INFO Calling get_stock_price for TM
+2023-07-30 14:47:11,918.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
+2023-07-30 14:47:12,125.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a53f1c0>
+2023-07-30 14:47:12,125.continuous_stock.INFO Calling get_stock_price for F
+2023-07-30 14:47:12,126.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
+2023-07-30 14:47:12,286.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a53f1c0>
+2023-07-30 14:47:12,286.continuous_stock.INFO Calling get_stock_price for HMC
+2023-07-30 14:47:12,287.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
+2023-07-30 14:47:12,469.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a53f1c0>
+2023-07-30 14:47:12,475.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-07-30 14:48:12,477.continuous_stock.INFO Calling get_stock_price for TSLA
+2023-07-30 14:48:12,479.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
+2023-07-30 14:48:12,680.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a5dc340>
+2023-07-30 14:48:12,682.continuous_stock.INFO Calling get_stock_price for GM
+2023-07-30 14:48:12,682.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
+2023-07-30 14:48:12,927.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a5dc340>
+2023-07-30 14:48:12,927.continuous_stock.INFO Calling get_stock_price for TM
+2023-07-30 14:48:12,927.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
+2023-07-30 14:48:13,048.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a5dc340>
+2023-07-30 14:48:13,048.continuous_stock.INFO Calling get_stock_price for F
+2023-07-30 14:48:13,049.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
+2023-07-30 14:48:13,193.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a5dc340>
+2023-07-30 14:48:13,193.continuous_stock.INFO Calling get_stock_price for HMC
+2023-07-30 14:48:13,194.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
+2023-07-30 14:48:13,296.continuous_stock.INFO Data from openweathermap: <fetch.HttpResponse object at 0x7f7a9a5dc340>
+2023-07-30 14:48:13,303.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv

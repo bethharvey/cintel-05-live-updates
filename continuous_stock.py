@@ -68,7 +68,7 @@ async def update_csv_stock():
         ]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
-        num_updates = 10  # Keep the most recent 10 readings
+        num_updates = 50  # Keep the most recent 10 readings for each location
         logger.info(f"update_interval: {update_interval}")
         logger.info(f"total_runtime: {total_runtime}")
         logger.info(f"num_updates: {num_updates}")
