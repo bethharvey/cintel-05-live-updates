@@ -1,10 +1,10 @@
-2023-07-30 14:45:05,770.app.INFO =============================================================
-2023-07-30 14:45:05,770.app.INFO Today is 2023-07-30 at 02:45 PM
-2023-07-30 14:45:05,770.app.INFO This file is running on: posix Darwin 22.5.0
-2023-07-30 14:45:05,770.app.INFO The Python version is: 3.9.12
-2023-07-30 14:45:05,770.app.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-07-30 14:45:05,770.app.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-07-30 14:45:05,770.app.INFO =============================================================
-2023-07-30 14:45:07,785.app.INFO Starting server ...
-2023-07-30 14:45:07,785.app.INFO Starting continuous updates ...
-2023-07-30 14:45:09,311.app.INFO Calling continuous updates ...
+2023-07-30 15:22:38,398.app.INFO =============================================================
+2023-07-30 15:22:38,398.app.INFO Today is 2023-07-30 at 03:22 PM
+2023-07-30 15:22:38,398.app.INFO This file is running on: posix Darwin 22.5.0
+2023-07-30 15:22:38,398.app.INFO The Python version is: 3.9.12
+2023-07-30 15:22:38,398.app.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-07-30 15:22:38,398.app.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-07-30 15:22:38,398.app.INFO =============================================================
+2023-07-30 15:22:40,322.app.INFO Starting server ...
+2023-07-30 15:22:40,322.app.INFO Starting continuous updates ...
+2023-07-30 15:22:42,633.app.INFO Calling continuous updates ...

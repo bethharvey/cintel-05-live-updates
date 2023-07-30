@@ -56,7 +56,7 @@ logger, log_filename = setup_logger(__file__)
 def get_API_key():
     # Keep secrets in a .env file - load it, read the values.
     # Load environment variables from .env file
-    load_dotenv()
+    load_dotenv('.env')
     key = os.getenv("OPEN_WEATHER_API_KEY")
     return key
 
