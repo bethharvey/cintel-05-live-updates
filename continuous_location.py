@@ -52,7 +52,7 @@ from util_logger import setup_logger
 # Set up a file logger
 logger, log_filename = setup_logger(__file__)
 
-
+load_dotenv()
 def get_API_key():
     # Keep secrets in a .env file - load it, read the values.
     # Load environment variables from .env file
@@ -60,7 +60,6 @@ def get_API_key():
     key = os.getenv("OPEN_WEATHER_API_KEY")
     return key
 
-my_key = get_API_key
 
 def lookup_lat_long(location):
     """Return the latitude and longitude for the given location."""
@@ -77,8 +76,7 @@ def lookup_lat_long(location):
 
 async def get_temperature_from_openweathermap(lat, long):
     logger.info("Calling get_temperature_from_openweathermap for {lat}, {long}}")
-    # api_key = get_API_key()
-    api_key = my_key
+    api_key = get_API_key()
     open_weather_url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={long}&appid={api_key}&units=imperial"
     logger.info(f"Calling fetch_from_url for {open_weather_url}")
     result = await fetch_from_url(open_weather_url, "json")
