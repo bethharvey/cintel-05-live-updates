@@ -1,6 +1,6 @@
-Company,Ticker,Time,Price
-Tesla Inc,TSLA,2023-07-30 16:01:13,266.44
-General Motors Company,GM,2023-07-30 16:01:13,38.05
-Toyota Motor Corporation,TM,2023-07-30 16:01:13,167.15
-Ford Motor Company,F,2023-07-30 16:01:14,13.26
-Honda Motor Co,HMC,2023-07-30 16:01:14,31.79
+Company,Ticker,Time,Price,Previous_Price
+Tesla Inc,TSLA,2023-08-02 20:03:24,254.11,261.07
+General Motors Company,GM,2023-08-02 20:03:24,37.39,38.12
+Toyota Motor Corporation,TM,2023-08-02 20:03:25,173.85,171.84
+Ford Motor Company,F,2023-08-02 20:03:25,13.04,13.42
+Honda Motor Co,HMC,2023-08-02 20:03:25,31.47,31.93

@@ -52,7 +52,7 @@ from util_logger import setup_logger
 # Set up a file logger
 logger, log_filename = setup_logger(__file__)
 
-load_dotenv()
+
 def get_API_key():
     # Keep secrets in a .env file - load it, read the values.
     # Load environment variables from .env file

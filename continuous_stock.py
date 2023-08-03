@@ -8,7 +8,7 @@ Information is updated once per minute.
 import asyncio
 import os
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from random import randint
 
 # Import external packages
@@ -43,15 +43,24 @@ async def get_stock_price(ticker):
     stock_api_url = f'https://query1.finance.yahoo.com/v7/finance/options/{ticker}'
     logger.info(f"Calling fetch_from_url for {stock_api_url}")
     result = await fetch_from_url(stock_api_url, "json")
-    logger.info(f'Data from openweathermap: {result}')
+    logger.info(f'Data from yahoofinance: {result}')
     price = result.data['optionChain']['result'][0]['quote']['regularMarketPrice']
     # price = randint(132, 148)   # Use to test code without calling API
     return price
 
+# Takes ticker string and returns previous day's closing price (asynchronous)
+async def get_previous_month_price(ticker):
+    logger.info(f'Calling get_previous_month_price for {ticker}')
+    month_api_url = f'https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?&interval=1d&range=1d'
+    logger.info(f'Calling fetch_from_url for {month_api_url}')
+    result = await fetch_from_url(month_api_url, "json")
+    logger.info(f'Data from yahoofinance: {result}')
+    prev_price = result.data['chart']['result'][0]['meta']['chartPreviousClose']
+    return prev_price
 
 # Create or overwrite CSV with column headings
 def init_stock_csv_file(file_path):
-    df_empty = pd.DataFrame(columns=["Company", "Ticker", "Time", "Stock_Price"])
+    df_empty = pd.DataFrame(columns=["Company", "Ticker", "Time", "Price", 'Previous_Price'])
     df_empty.to_csv(file_path, index=False)
 
 
@@ -88,12 +97,14 @@ async def update_csv_stock():
             for company in companies:
                 ticker = lookup_ticker(company)
                 new_price = await get_stock_price(ticker)
+                prev_price = await get_previous_month_price(ticker)
                 time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Current time
                 new_record = {
                     "Company": company,
                     "Ticker": ticker,
                     "Time": time_now,
                     "Price": new_price,
+                    "Previous_Price": prev_price
                 }
                 records_deque.append(new_record)
 
@@ -109,3 +120,7 @@ async def update_csv_stock():
 
     except Exception as e:
         logger.error(f"ERROR in update_csv_stock: {e}")
+
+
+
+

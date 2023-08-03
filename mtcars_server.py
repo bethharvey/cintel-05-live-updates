@@ -38,6 +38,7 @@ from plotnine import aes, geom_point, ggplot, ggtitle
 import plotly.express as px
 from shiny import render, reactive
 from shinywidgets import render_widget
+from shiny.types import ImgData
 
 # Local Imports
 from mtcars_get_basics import get_mtcars_df
@@ -236,6 +237,35 @@ def get_mtcars_server_functions(input, output, session):
         return message
 
     @output
+    @render.text
+    def mtcars_stock_difference():
+        selected = reactive_stock.get()
+        df = get_mtcars_stock_df()
+        df_company = df[df['Company'] == reactive_stock.get()]
+        prev_price = df_company['Previous_Price'].iloc[-1]
+        current_price = df_company['Price'].iloc[-1]
+        logger.info(f'Calculating daily price difference for{selected}')
+        price_difference = (round(current_price - prev_price, 2))
+        return price_difference
+    
+    @output
+    @render.image
+    def get_image():
+        selected = reactive_stock.get()
+        df = get_mtcars_stock_df()
+        df_company = df[df['Company'] == reactive_stock.get()]
+        prev_price = df_company['Previous_Price'].iloc[-1]
+        current_price = df_company['Price'].iloc[-1]
+        logger.info(f'Calculating daily price difference for{selected}')
+        price_difference = (round(current_price - prev_price, 2))
+        dir = Path(__file__).resolve().parent
+        if price_difference < 0:
+            img: ImgData = {'src': str(dir / 'red_down_arrow.png'), 'width':'30px', 'height':'30px', 'inline':True}  
+        else:      
+            img: ImgData = {'src': str(dir / 'green-up-arrow.svg.png'), 'width':'30px', 'height':'30px', 'inline':True}
+        return img
+
+    @output
     @render.table
     def mtcars_stock_table():
         df = get_mtcars_stock_df()
@@ -270,6 +300,8 @@ def get_mtcars_server_functions(input, output, session):
         mtcars_location_table,
         mtcars_location_chart,
         mtcars_stock_string,
+        mtcars_stock_difference,
+        get_image,
         mtcars_stock_table,
         mtcars_stock_chart
     ]
