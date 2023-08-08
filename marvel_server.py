@@ -16,7 +16,6 @@ from plotnine import aes, geom_point, ggplot, ggtitle
 import plotly.express as px
 from shiny import render, reactive
 from shinywidgets import render_widget
-from shiny.types import ImgData
 
 # Local Imports
 from marvel_get_basics import get_marvel_df
@@ -98,9 +97,23 @@ def get_marvel_server_functions(input, output, session):
         logger.info(f"Rendering character table with {len(df_character)} rows")
         return df_character
     
+    @output
+    @render_widget
+    def marvel_character_chart():
+        df = get_marvel_df()
+        # Filter the data based on the selected character
+        df_character = df[df['Character Name'] == reactive_character.get()]
+        logger.info(f"Rendering character chart with {len(df_character)} points")
+        plotly_express_plot = px.bar(
+            df_character, x='Variant Name', y='Number of Appearances Available', color='Character Name'
+        )
+        plotly_express_plot.update_layout(title='Number of Appearances by Character Variant')
+        return plotly_express_plot
+    
 
     return [
         marvel_character_string,
-        marvel_character_table
+        marvel_character_table,
+        marvel_character_chart
         ]
     
