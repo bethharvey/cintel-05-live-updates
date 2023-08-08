@@ -98,7 +98,7 @@ def get_mtcars_server_functions(input, output, session):
         # We use them to drive the reactive outputs
         # First, there's the filtered dataframe
         reactive_df.set(filtered_df)
-
+    
     @output
     @render.text
     def mtcars_record_count_string():

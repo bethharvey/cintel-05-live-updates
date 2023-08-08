@@ -13,7 +13,7 @@ from random import randint
 
 # Import external packages
 import pandas as pd
-import yfinance as yf
+# import yfinance as yf
 from collections import deque
 
 # Local imports
@@ -90,8 +90,6 @@ async def update_csv_stock():
         # Check if the file exists, if not, create it with only the column headings
         if not os.path.exists(fp):
             init_stock_csv_file(fp)
-
-        logger.info(f"Initialized csv file at {fp}")
 
         for _ in range(num_updates):  # To get num_updates readings
             for company in companies:

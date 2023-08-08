@@ -22,6 +22,9 @@ from continuous_stock import update_csv_stock
 from mtcars_server import get_mtcars_server_functions
 from mtcars_ui_inputs import get_mtcars_inputs
 from mtcars_ui_outputs import get_mtcars_outputs
+from marvel_server import get_marvel_server_functions
+from marvel_ui_inputs import get_marvel_inputs
+from marvel_ui_outputs import get_marvel_outputs
 from util_logger import setup_logger
 
 # Set up a logger for this file (see the logs folder to help with debugging).
@@ -48,6 +51,13 @@ app_ui = ui.page_navbar(
             get_mtcars_outputs(),
         ),
     ),
+    ui.nav(
+        'Marvel', 
+        ui.layout_sidebar(
+            get_marvel_inputs(),
+            get_marvel_outputs(),
+        ),
+    ),
     ui.nav(ui.a("About", href="https://github.com/bethharvey")),
     ui.nav(ui.a("GitHub", href="https://github.com/bethharvey/cintel-05-live-updates")),
     ui.nav(ui.a("App", href="https://bethharvey.shinyapps.io/cintel-05-live-updates/")),
@@ -56,6 +66,7 @@ app_ui = ui.page_navbar(
     ui.nav(ui.a("OneCallAPI", href="https://openweathermap.org/api/one-call-3")),
     ui.nav(ui.a('YFinanceAPI', href='https://pypi.org/project/yfinance/')),
     ui.nav(ui.a("File_Reader", href="https://shiny.rstudio.com/py/api/reactive.file_reader.html")),
+    ui.nav(ui.a('Marvel API', href='https://developer.marvel.com/')),
     title=ui.h1("Harvey Dashboard"),
 )
 
@@ -73,6 +84,7 @@ def server(input, output, session):
     logger.info("Starting continuous updates ...")
 
     get_mtcars_server_functions(input, output, session)
+    get_marvel_server_functions(input, output, session)
 
 
 app = App(app_ui, server, debug=True)
