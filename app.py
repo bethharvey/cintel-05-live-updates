@@ -19,6 +19,7 @@ import shinyswatch          # pip install shinyswatch
 # Finally, import what we need from other local code files.
 from continuous_location import update_csv_location
 from continuous_stock import update_csv_stock
+from get_marvel_data import get_character_info
 from mtcars_server import get_mtcars_server_functions
 from mtcars_ui_inputs import get_mtcars_inputs
 from mtcars_ui_outputs import get_mtcars_outputs
@@ -39,7 +40,8 @@ async def update_csv_files():
         logger.info("Calling continuous updates ...")
         task1 = asyncio.create_task(update_csv_location())
         task2 = asyncio.create_task(update_csv_stock())
-        await asyncio.gather(task1, task2)
+        task3 = asyncio.create_task(get_character_info())
+        await asyncio.gather(task1, task2, task3)
         await asyncio.sleep(60)  # wait for 60 seconds
 
 app_ui = ui.page_navbar(

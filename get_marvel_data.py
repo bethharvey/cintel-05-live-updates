@@ -12,6 +12,7 @@ The Marvel API allows up to 3000 calls per day.
 """
 
 # Standard Library
+import asyncio
 from pathlib import Path
 import os
 
@@ -38,9 +39,6 @@ def get_private_API_key():
     load_dotenv()
     m_private_key = os.getenv('MARVEL_PRIVATE_KEY')
     return m_private_key
-
-# Initialize Marvel API object
-# m = Marvel(get_public_API_key(), get_private_API_key())
 
 
 # Get list of characters from name
@@ -92,52 +90,50 @@ def init_character_file(file_path):
 
 
 # Get character info for specific characters and add to CSV
-def get_character_info():
-    character_list = ['Spider-Man', 
+async def get_character_info():
+    try:
+        character_list = ['Spider-Man', 
                       'Captain America', 
                       'Black Widow', 
                       'Iron Man', 
                       'Thor', 
                       'Captain Marvel']
+        update_interval = 10000  # Update every 10000 seconds
+        total_runtime = 1  # Total runtime maximum of 15 minutes
+        num_updates = 1  # Keep the most recent 1 readings
+        logger.info(f"update_interval: {update_interval}")
+        logger.info(f"total_runtime: {total_runtime}")
+        logger.info(f"num_updates: {num_updates}")
     
-    records_deque = deque()
+        records_deque = deque()
 
-    fp = Path(__file__).parent.joinpath("marvel_character_data.csv")
+        fp = Path(__file__).parent.joinpath("marvel_character_data.csv")
 
-        # Check if the file exists, if not, create it with only the column headings
-    if not os.path.exists(fp):
-            init_character_file(fp)
+            # Check if the file exists, if not, create it with only the column headings
+        if not os.path.exists(fp):
+                init_character_file(fp)
 
-    for character in character_list:
-        character_name = character
-        specific_name_list = get_character_names(character)
-        number_appearances_list = get_number_of_appearances(character)
-        character_description_list = get_character_descriptions(character)
-        for i in range(len(specific_name_list)):
-            new_record = {
-                'Character Name': character_name,
-                'Variant Name': specific_name_list[i],
-                'Number of Appearances Available': number_appearances_list[i],
-                'Character Description (If Available)': character_description_list[i],
-                }
-            records_deque.append(new_record)
-        # Use the deque to make a DataFrame
-        df = pd.DataFrame(records_deque)
-        df.to_csv(fp, index=False, mode="w")
+        for character in character_list:
+            character_name = character
+            specific_name_list = get_character_names(character)
+            number_appearances_list = get_number_of_appearances(character)
+            character_description_list = get_character_descriptions(character)
+            for i in range(len(specific_name_list)):
+                new_record = {
+                    'Character Name': character_name,
+                    'Variant Name': specific_name_list[i],
+                    'Number of Appearances Available': number_appearances_list[i],
+                    'Character Description (If Available)': character_description_list[i],
+                    }
+                records_deque.append(new_record)
+            # Use the deque to make a DataFrame
+            df = pd.DataFrame(records_deque)
+            df.to_csv(fp, index=False, mode="w")
+
+            # Wait for update_interval seconds before the next reading
+            await asyncio.sleep(update_interval)
+
+    except Exception as e:
+        logger.error(f"ERROR in update_csv_location: {e}")
 
 # get_character_info()
-
-
-
-
-# def get_comics_list(character_id_list):
-#     date_list = []
-#     for character_id in character_id_list:
-#         character_info = m.characters.comics(character_id)
-#         for i in range(len(character_info['data']['results'])):
-#             comic_date = character_info['data']['results'][i]['dates'][1]['date']
-#             date_list.append(comic_date)
-#         return date_list
-
-
-

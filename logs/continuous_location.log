@@ -1,22 +1,22 @@
-2023-08-08 19:14:29,673.continuous_location.INFO =============================================================
-2023-08-08 19:14:29,673.continuous_location.INFO Today is 2023-08-08 at 07:14 PM
-2023-08-08 19:14:29,673.continuous_location.INFO This file is running on: posix Darwin 22.5.0
-2023-08-08 19:14:29,673.continuous_location.INFO The Python version is: 3.11.2
-2023-08-08 19:14:29,673.continuous_location.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-08-08 19:14:29,673.continuous_location.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-08-08 19:14:29,673.continuous_location.INFO =============================================================
-2023-08-08 19:14:34,035.continuous_location.INFO Calling update_csv_location
-2023-08-08 19:14:34,035.continuous_location.INFO update_interval: 60
-2023-08-08 19:14:34,035.continuous_location.INFO total_runtime: 900
-2023-08-08 19:14:34,035.continuous_location.INFO num_updates: 30
-2023-08-08 19:14:34,035.continuous_location.INFO Initialized csv file at /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-08-08 19:14:34,035.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-08-08 19:14:34,036.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
-2023-08-08 19:14:34,264.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x17dec1b50>
-2023-08-08 19:14:34,264.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-08-08 19:14:34,265.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
-2023-08-08 19:14:34,461.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x17dec0e90>
-2023-08-08 19:14:34,461.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-08-08 19:14:34,463.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
-2023-08-08 19:14:34,634.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x17dec0cd0>
-2023-08-08 19:14:34,643.continuous_location.INFO Saving temperatures to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-08-08 19:30:42,467.continuous_location.INFO =============================================================
+2023-08-08 19:30:42,467.continuous_location.INFO Today is 2023-08-08 at 07:30 PM
+2023-08-08 19:30:42,467.continuous_location.INFO This file is running on: posix Darwin 22.5.0
+2023-08-08 19:30:42,467.continuous_location.INFO The Python version is: 3.11.2
+2023-08-08 19:30:42,467.continuous_location.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-08-08 19:30:42,467.continuous_location.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-08-08 19:30:42,467.continuous_location.INFO =============================================================
+2023-08-08 19:30:46,520.continuous_location.INFO Calling update_csv_location
+2023-08-08 19:30:46,520.continuous_location.INFO update_interval: 60
+2023-08-08 19:30:46,520.continuous_location.INFO total_runtime: 900
+2023-08-08 19:30:46,520.continuous_location.INFO num_updates: 30
+2023-08-08 19:30:46,520.continuous_location.INFO Initialized csv file at /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-08-08 19:30:46,520.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-08 19:30:46,521.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
+2023-08-08 19:30:46,720.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x17faa19d0>
+2023-08-08 19:30:46,721.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-08 19:30:46,721.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
+2023-08-08 19:30:46,908.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x17faa1150>
+2023-08-08 19:30:46,909.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-08 19:30:46,911.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=c1e2972835404aa7d29e42f885cc4eda&units=imperial
+2023-08-08 19:30:47,163.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x17faa21d0>
+2023-08-08 19:30:47,170.continuous_location.INFO Saving temperatures to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv

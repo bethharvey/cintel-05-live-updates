@@ -1,13 +1,43 @@
-2023-08-08 19:14:30,125.marvel_server.INFO =============================================================
-2023-08-08 19:14:30,125.marvel_server.INFO Today is 2023-08-08 at 07:14 PM
-2023-08-08 19:14:30,125.marvel_server.INFO This file is running on: posix Darwin 22.5.0
-2023-08-08 19:14:30,125.marvel_server.INFO The Python version is: 3.11.2
-2023-08-08 19:14:30,125.marvel_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-08-08 19:14:30,125.marvel_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-08-08 19:14:30,125.marvel_server.INFO =============================================================
-2023-08-08 19:14:33,959.marvel_server.INFO init reactive_character_df len: 45
-2023-08-08 19:14:36,963.marvel_server.INFO marvel_character_string starting
-2023-08-08 19:14:36,964.marvel_server.INFO There are 13 different characters whose name starts with Spider-Man!
+2023-08-08 19:30:42,922.marvel_server.INFO =============================================================
+2023-08-08 19:30:42,922.marvel_server.INFO Today is 2023-08-08 at 07:30 PM
+2023-08-08 19:30:42,922.marvel_server.INFO This file is running on: posix Darwin 22.5.0
+2023-08-08 19:30:42,922.marvel_server.INFO The Python version is: 3.11.2
+2023-08-08 19:30:42,922.marvel_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-08-08 19:30:42,922.marvel_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-08-08 19:30:42,922.marvel_server.INFO =============================================================
+2023-08-08 19:30:46,410.marvel_server.INFO init reactive_character_df len: 45
+2023-08-08 19:30:49,377.marvel_server.INFO marvel_character_string starting
+2023-08-08 19:30:49,378.marvel_server.INFO There are 13 different characters whose name starts with Spider-Man!
 Spider-Man characters have appeared 13911 times in the comics in this database.
-2023-08-08 19:14:36,965.marvel_server.INFO Rendering character table with 13 rows
-2023-08-08 19:14:36,966.marvel_server.INFO Rendering character chart with 13 points
+2023-08-08 19:30:49,379.marvel_server.INFO Rendering character table with 13 rows
+2023-08-08 19:30:49,380.marvel_server.INFO Rendering character chart with 13 points
+2023-08-08 19:30:52,313.marvel_server.INFO init reactive_character_df len: 45
+2023-08-08 19:30:52,313.marvel_server.INFO marvel_character_string starting
+2023-08-08 19:30:52,316.marvel_server.INFO There are 7 different characters whose name starts with Captain America!
+Captain America characters have appeared 7212 times in the comics in this database.
+2023-08-08 19:30:52,320.marvel_server.INFO Rendering character table with 7 rows
+2023-08-08 19:30:52,326.marvel_server.INFO Rendering character chart with 7 points
+2023-08-08 19:31:00,508.marvel_server.INFO init reactive_character_df len: 45
+2023-08-08 19:31:00,508.marvel_server.INFO marvel_character_string starting
+2023-08-08 19:31:00,511.marvel_server.INFO There are 5 different characters whose name starts with Black Widow!
+Black Widow characters have appeared 1603 times in the comics in this database.
+2023-08-08 19:31:00,513.marvel_server.INFO Rendering character table with 5 rows
+2023-08-08 19:31:00,518.marvel_server.INFO Rendering character chart with 5 points
+2023-08-08 19:31:07,392.marvel_server.INFO init reactive_character_df len: 45
+2023-08-08 19:31:07,392.marvel_server.INFO marvel_character_string starting
+2023-08-08 19:31:07,395.marvel_server.INFO There are 7 different characters whose name starts with Iron Man!
+Iron Man characters have appeared 7589 times in the comics in this database.
+2023-08-08 19:31:07,399.marvel_server.INFO Rendering character table with 7 rows
+2023-08-08 19:31:07,403.marvel_server.INFO Rendering character chart with 7 points
+2023-08-08 19:31:16,149.marvel_server.INFO init reactive_character_df len: 45
+2023-08-08 19:31:16,150.marvel_server.INFO marvel_character_string starting
+2023-08-08 19:31:16,153.marvel_server.INFO There are 8 different characters whose name starts with Thor!
+Thor characters have appeared 5514 times in the comics in this database.
+2023-08-08 19:31:16,156.marvel_server.INFO Rendering character table with 8 rows
+2023-08-08 19:31:16,161.marvel_server.INFO Rendering character chart with 8 points
+2023-08-08 19:31:18,044.marvel_server.INFO init reactive_character_df len: 45
+2023-08-08 19:31:18,044.marvel_server.INFO marvel_character_string starting
+2023-08-08 19:31:18,047.marvel_server.INFO There are 5 different characters whose name starts with Captain Marvel!
+Captain Marvel characters have appeared 2333 times in the comics in this database.
+2023-08-08 19:31:18,049.marvel_server.INFO Rendering character table with 5 rows
+2023-08-08 19:31:18,054.marvel_server.INFO Rendering character chart with 5 points

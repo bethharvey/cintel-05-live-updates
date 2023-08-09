@@ -1,7 +1,11 @@
-2023-08-07 22:18:36,245.get_marvel_data.INFO =============================================================
-2023-08-07 22:18:36,245.get_marvel_data.INFO Today is 2023-08-07 at 10:18 PM
-2023-08-07 22:18:36,245.get_marvel_data.INFO This file is running on: posix Darwin 22.5.0
-2023-08-07 22:18:36,245.get_marvel_data.INFO The Python version is: 3.11.2
-2023-08-07 22:18:36,245.get_marvel_data.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-08-07 22:18:36,245.get_marvel_data.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-08-07 22:18:36,245.get_marvel_data.INFO =============================================================
+2023-08-08 19:30:42,470.get_marvel_data.INFO =============================================================
+2023-08-08 19:30:42,470.get_marvel_data.INFO Today is 2023-08-08 at 07:30 PM
+2023-08-08 19:30:42,470.get_marvel_data.INFO This file is running on: posix Darwin 22.5.0
+2023-08-08 19:30:42,470.get_marvel_data.INFO The Python version is: 3.11.2
+2023-08-08 19:30:42,470.get_marvel_data.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-08-08 19:30:42,470.get_marvel_data.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-08-08 19:30:42,470.get_marvel_data.INFO =============================================================
+2023-08-08 19:30:49,264.get_marvel_data.INFO update_interval: 10000
+2023-08-08 19:30:49,265.get_marvel_data.INFO total_runtime: 1
+2023-08-08 19:30:49,265.get_marvel_data.INFO num_updates: 1
+2023-08-08 19:30:49,265.get_marvel_data.ERROR ERROR in update_csv_location: object of type 'coroutine' has no len()
