@@ -19,10 +19,10 @@ import os
 import pandas as pd
 from collections import deque
 from dotenv import load_dotenv
-from marvel import Marvel
 
 # Local Imports
 from util_logger import setup_logger
+from fetch import fetch_from_url
 
 # Set up a file logger
 logger, log_filename = setup_logger(__file__)
@@ -40,50 +40,49 @@ def get_private_API_key():
     return m_private_key
 
 # Initialize Marvel API object
-m = Marvel(get_public_API_key(), get_private_API_key())
+# m = Marvel(get_public_API_key(), get_private_API_key())
 
 
 # Get list of characters from name
-def get_character_names(character_name):
-    all_character_info = m.characters.all(nameStartsWith = character_name)
+async def get_character_names(character_name):
+    public_key = get_public_API_key()
+    marvel_api_url = f'https://gateway.marvel.com:443/v1/public/characters?nameStartsWith={character_name}&apikey={public_key}'
+    result = await fetch_from_url(marvel_api_url, 'json')
+    all_character_info = result.data['results']
     character_names = []
-    for i in range(len(all_character_info['data']['results'])):
-        name = all_character_info['data']['results'][i]['name']
+    for i in range(len(all_character_info)):
+        name = all_character_info[i]['name']
         character_names.append(name)
     return character_names
 
 
 # Get character descriptions
-def get_character_descriptions(character_name):
-    all_character_info = m.characters.all(nameStartsWith = character_name)
+async def get_character_descriptions(character_name):
+    public_key = get_public_API_key()
+    marvel_api_url = f'https://gateway.marvel.com:443/v1/public/characters?nameStartsWith={character_name}&apikey={public_key}'
+    result = await fetch_from_url(marvel_api_url)
+    all_character_info = result.data['results']
     character_descriptions = []
-    for i in range(len(all_character_info['data']['results'])):
-        description = all_character_info['data']['results'][i]['description']
+    for i in range(len(all_character_info)):
+        description = all_character_info[i]['description']
         character_descriptions.append(description)
     return character_descriptions
 
 
 # Get number of comics a character has appeared in
-def get_number_of_appearances(character_name):
-    all_character_info = m.characters.all(nameStartsWith = character_name)
+async def get_number_of_appearances(character_name):
+    public_key = get_public_API_key()
+    marvel_api_url = f'https://gateway.marvel.com:443/v1/public/characters?nameStartsWith={character_name}&apikey={public_key}'
+    result = await fetch_from_url(marvel_api_url)
+    all_character_info = result.data['results']
     character_appearances = []
-    for i in range(len(all_character_info['data']['results'])):
-        num_appearances = (all_character_info['data']['results'][i]['comics']['available'] + 
-                        all_character_info['data']['results'][i]['series']['available'] + 
-                        all_character_info['data']['results'][i]['events']['available'] + 
-                        all_character_info['data']['results'][i]['stories']['available'])
+    for i in range(len(all_character_info)):
+        num_appearances = (all_character_info[i]['comics']['available'] + 
+                        all_character_info[i]['series']['available'] + 
+                        all_character_info['events']['available'] + 
+                        all_character_info['stories']['available'])
         character_appearances.append(num_appearances)
     return character_appearances
-
-
-# Get character ID using character name
-def get_character_id(character_name):
-    all_characters = m.characters.all(name = character_name)
-    character_ids = []
-    for i in range(len(all_characters['data']['results'])):
-        character_id = all_characters['data']['results'][i]['id']
-        character_ids.append(character_id)
-    return character_ids
 
 
 # Create CSV with column headings

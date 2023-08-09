@@ -2,7 +2,6 @@ htmltools
 ipywidgets
 jinja2
 jupyter_bokeh
-marvel 
 matplotlib
 pandas
 plotly 

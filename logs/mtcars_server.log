@@ -1,50 +1,40 @@
-2023-08-08 18:44:31,494.mtcars_server.INFO =============================================================
-2023-08-08 18:44:31,494.mtcars_server.INFO Today is 2023-08-08 at 06:44 PM
-2023-08-08 18:44:31,494.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
-2023-08-08 18:44:31,494.mtcars_server.INFO The Python version is: 3.11.2
-2023-08-08 18:44:31,494.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-08-08 18:44:31,494.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-08-08 18:44:31,494.mtcars_server.INFO =============================================================
-2023-08-08 18:44:34,370.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-08-08 18:44:34,408.mtcars_server.INFO Starting mtcars_output_widget1
-2023-08-08 18:44:34,579.mtcars_server.INFO Starting mtcars_plot1
-2023-08-08 18:44:35,306.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-08-08 18:44:35,308.mtcars_server.INFO READING df len 3
-2023-08-08 18:44:35,308.mtcars_server.INFO init reactive_temp_df len: 3
-2023-08-08 18:44:35,308.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-08-08 18:44:35,308.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-08-08 19:14:30,123.mtcars_server.INFO =============================================================
+2023-08-08 19:14:30,123.mtcars_server.INFO Today is 2023-08-08 at 07:14 PM
+2023-08-08 19:14:30,123.mtcars_server.INFO This file is running on: posix Darwin 22.5.0
+2023-08-08 19:14:30,123.mtcars_server.INFO The Python version is: 3.11.2
+2023-08-08 19:14:30,123.mtcars_server.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-08-08 19:14:30,123.mtcars_server.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-08-08 19:14:30,123.mtcars_server.INFO =============================================================
+2023-08-08 19:14:32,908.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-08-08 19:14:32,946.mtcars_server.INFO Starting mtcars_output_widget1
+2023-08-08 19:14:33,147.mtcars_server.INFO Starting mtcars_plot1
+2023-08-08 19:14:33,908.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-08-08 19:14:33,909.mtcars_server.INFO READING df len 6
+2023-08-08 19:14:33,909.mtcars_server.INFO init reactive_temp_df len: 6
+2023-08-08 19:14:33,909.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-08-08 19:14:33,909.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-08 18:44:35,308.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-08 18:44:35,309.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-08 18:44:35,333.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
-2023-08-08 18:44:35,333.mtcars_server.INFO READING df len 5
-2023-08-08 18:44:35,334.mtcars_server.INFO init reactive_stock_df len: 5
-2023-08-08 18:44:35,334.mtcars_server.INFO mtcars_price_company_string starting
-2023-08-08 18:44:35,334.mtcars_server.INFO Recent Stock Price in USD for Tesla Inc.
+2023-08-08 19:14:33,910.mtcars_server.INFO Rendering TEMP table with 2 rows
+2023-08-08 19:14:33,911.mtcars_server.INFO Rendering TEMP chart with 2 points
+2023-08-08 19:14:33,935.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-08-08 19:14:33,935.mtcars_server.INFO READING df len 10
+2023-08-08 19:14:33,935.mtcars_server.INFO init reactive_stock_df len: 10
+2023-08-08 19:14:33,935.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-08 19:14:33,935.mtcars_server.INFO Recent Stock Price in USD for Tesla Inc.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-08 18:44:35,334.mtcars_server.INFO Calculating daily price difference forTesla Inc
-2023-08-08 18:44:35,334.mtcars_server.INFO Calculating daily price difference forTesla Inc
-2023-08-08 18:44:35,336.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-08 18:44:35,337.mtcars_server.INFO Rendering PRICE chart with 1 points
-2023-08-08 18:44:37,743.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-08-08 18:44:37,746.mtcars_server.INFO READING df len 3
-2023-08-08 18:44:37,747.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-08 18:44:37,750.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-08 18:44:37,796.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
-2023-08-08 18:44:37,797.mtcars_server.INFO READING df len 5
-2023-08-08 18:44:37,797.mtcars_server.INFO Calculating daily price difference forTesla Inc
-2023-08-08 18:44:37,797.mtcars_server.INFO Calculating daily price difference forTesla Inc
-2023-08-08 18:44:37,798.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-08 18:44:37,799.mtcars_server.INFO Rendering PRICE chart with 1 points
-2023-08-08 18:45:42,259.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
-2023-08-08 18:45:42,263.mtcars_server.INFO READING df len 6
-2023-08-08 18:45:42,264.mtcars_server.INFO Rendering TEMP table with 2 rows
-2023-08-08 18:45:42,268.mtcars_server.INFO Rendering TEMP chart with 2 points
-2023-08-08 18:45:42,313.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
-2023-08-08 18:45:42,314.mtcars_server.INFO READING df len 10
-2023-08-08 18:45:42,315.mtcars_server.INFO Calculating daily price difference forTesla Inc
-2023-08-08 18:45:42,315.mtcars_server.INFO Calculating daily price difference forTesla Inc
-2023-08-08 18:45:42,316.mtcars_server.INFO Rendering PRICE table with 2 rows
-2023-08-08 18:45:42,317.mtcars_server.INFO Rendering PRICE chart with 2 points
+2023-08-08 19:14:33,936.mtcars_server.INFO Calculating daily price difference forTesla Inc
+2023-08-08 19:14:33,937.mtcars_server.INFO Calculating daily price difference forTesla Inc
+2023-08-08 19:14:33,939.mtcars_server.INFO Rendering PRICE table with 2 rows
+2023-08-08 19:14:33,940.mtcars_server.INFO Rendering PRICE chart with 2 points
+2023-08-08 19:14:36,850.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_location.csv
+2023-08-08 19:14:36,853.mtcars_server.INFO READING df len 3
+2023-08-08 19:14:36,854.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-08-08 19:14:36,857.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-08-08 19:14:36,904.mtcars_server.INFO READING df from /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-08-08 19:14:36,905.mtcars_server.INFO READING df len 5
+2023-08-08 19:14:36,905.mtcars_server.INFO Calculating daily price difference forTesla Inc
+2023-08-08 19:14:36,905.mtcars_server.INFO Calculating daily price difference forTesla Inc
+2023-08-08 19:14:36,906.mtcars_server.INFO Rendering PRICE table with 1 rows
+2023-08-08 19:14:36,907.mtcars_server.INFO Rendering PRICE chart with 1 points

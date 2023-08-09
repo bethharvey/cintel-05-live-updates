@@ -1,73 +1,42 @@
-2023-08-08 18:44:31,136.continuous_stock.INFO =============================================================
-2023-08-08 18:44:31,136.continuous_stock.INFO Today is 2023-08-08 at 06:44 PM
-2023-08-08 18:44:31,136.continuous_stock.INFO This file is running on: posix Darwin 22.5.0
-2023-08-08 18:44:31,136.continuous_stock.INFO The Python version is: 3.11.2
-2023-08-08 18:44:31,136.continuous_stock.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
-2023-08-08 18:44:31,136.continuous_stock.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
-2023-08-08 18:44:31,136.continuous_stock.INFO =============================================================
-2023-08-08 18:44:35,868.continuous_stock.INFO Calling update_csv_stock
-2023-08-08 18:44:35,868.continuous_stock.INFO update_interval: 60
-2023-08-08 18:44:35,868.continuous_stock.INFO total_runtime: 900
-2023-08-08 18:44:35,868.continuous_stock.INFO num_updates: 50
-2023-08-08 18:44:35,868.continuous_stock.INFO Calling get_stock_price for TSLA
-2023-08-08 18:44:35,868.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
-2023-08-08 18:44:36,172.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149cfb7d0>
-2023-08-08 18:44:36,173.continuous_stock.INFO Calling get_previous_month_price for TSLA
-2023-08-08 18:44:36,173.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/TSLA?&interval=1d&range=1d
-2023-08-08 18:44:36,350.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce7bd0>
-2023-08-08 18:44:36,350.continuous_stock.INFO Calling get_stock_price for GM
-2023-08-08 18:44:36,350.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
-2023-08-08 18:44:36,500.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149cb1b50>
-2023-08-08 18:44:36,501.continuous_stock.INFO Calling get_previous_month_price for GM
-2023-08-08 18:44:36,501.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/GM?&interval=1d&range=1d
-2023-08-08 18:44:36,684.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce4790>
-2023-08-08 18:44:36,684.continuous_stock.INFO Calling get_stock_price for TM
-2023-08-08 18:44:36,684.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
-2023-08-08 18:44:36,794.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce6d10>
-2023-08-08 18:44:36,794.continuous_stock.INFO Calling get_previous_month_price for TM
-2023-08-08 18:44:36,794.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/TM?&interval=1d&range=1d
-2023-08-08 18:44:37,021.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce5bd0>
-2023-08-08 18:44:37,021.continuous_stock.INFO Calling get_stock_price for F
-2023-08-08 18:44:37,021.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
-2023-08-08 18:44:37,165.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce6c90>
-2023-08-08 18:44:37,165.continuous_stock.INFO Calling get_previous_month_price for F
-2023-08-08 18:44:37,166.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/F?&interval=1d&range=1d
-2023-08-08 18:44:37,395.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce7890>
-2023-08-08 18:44:37,396.continuous_stock.INFO Calling get_stock_price for HMC
-2023-08-08 18:44:37,396.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
-2023-08-08 18:44:37,525.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce7d50>
-2023-08-08 18:44:37,525.continuous_stock.INFO Calling get_previous_month_price for HMC
-2023-08-08 18:44:37,525.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/HMC?&interval=1d&range=1d
-2023-08-08 18:44:37,734.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149ce4b50>
-2023-08-08 18:44:37,739.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
-2023-08-08 18:45:37,740.continuous_stock.INFO Calling get_stock_price for TSLA
-2023-08-08 18:45:37,742.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
-2023-08-08 18:45:38,129.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eb30b90>
-2023-08-08 18:45:38,129.continuous_stock.INFO Calling get_previous_month_price for TSLA
-2023-08-08 18:45:38,130.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/TSLA?&interval=1d&range=1d
-2023-08-08 18:45:38,238.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eb0bf10>
-2023-08-08 18:45:38,238.continuous_stock.INFO Calling get_stock_price for GM
-2023-08-08 18:45:38,238.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
-2023-08-08 18:45:38,382.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eb0ef50>
-2023-08-08 18:45:38,383.continuous_stock.INFO Calling get_previous_month_price for GM
-2023-08-08 18:45:38,383.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/GM?&interval=1d&range=1d
-2023-08-08 18:45:38,514.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eb0bf10>
-2023-08-08 18:45:38,515.continuous_stock.INFO Calling get_stock_price for TM
-2023-08-08 18:45:38,515.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
-2023-08-08 18:45:38,715.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eb0da10>
-2023-08-08 18:45:38,716.continuous_stock.INFO Calling get_previous_month_price for TM
-2023-08-08 18:45:38,716.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/TM?&interval=1d&range=1d
-2023-08-08 18:45:38,914.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x12892b590>
-2023-08-08 18:45:38,915.continuous_stock.INFO Calling get_stock_price for F
-2023-08-08 18:45:38,915.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
-2023-08-08 18:45:39,275.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eb0ee10>
-2023-08-08 18:45:39,275.continuous_stock.INFO Calling get_previous_month_price for F
-2023-08-08 18:45:39,276.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/F?&interval=1d&range=1d
-2023-08-08 18:45:39,452.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eb05bd0>
-2023-08-08 18:45:39,453.continuous_stock.INFO Calling get_stock_price for HMC
-2023-08-08 18:45:39,453.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
-2023-08-08 18:45:39,595.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x14eafa710>
-2023-08-08 18:45:39,595.continuous_stock.INFO Calling get_previous_month_price for HMC
-2023-08-08 18:45:39,596.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/HMC?&interval=1d&range=1d
-2023-08-08 18:45:39,777.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x149c7dad0>
-2023-08-08 18:45:39,782.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
+2023-08-08 19:14:29,674.continuous_stock.INFO =============================================================
+2023-08-08 19:14:29,674.continuous_stock.INFO Today is 2023-08-08 at 07:14 PM
+2023-08-08 19:14:29,674.continuous_stock.INFO This file is running on: posix Darwin 22.5.0
+2023-08-08 19:14:29,674.continuous_stock.INFO The Python version is: 3.11.2
+2023-08-08 19:14:29,674.continuous_stock.INFO The active environment path is:   /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/.venv
+2023-08-08 19:14:29,674.continuous_stock.INFO The current working directory is: /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates
+2023-08-08 19:14:29,674.continuous_stock.INFO =============================================================
+2023-08-08 19:14:34,643.continuous_stock.INFO Calling update_csv_stock
+2023-08-08 19:14:34,643.continuous_stock.INFO update_interval: 60
+2023-08-08 19:14:34,643.continuous_stock.INFO total_runtime: 900
+2023-08-08 19:14:34,643.continuous_stock.INFO num_updates: 50
+2023-08-08 19:14:34,644.continuous_stock.INFO Calling get_stock_price for TSLA
+2023-08-08 19:14:34,644.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TSLA
+2023-08-08 19:14:34,866.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df42d90>
+2023-08-08 19:14:34,867.continuous_stock.INFO Calling get_previous_month_price for TSLA
+2023-08-08 19:14:34,867.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/TSLA?&interval=1d&range=1d
+2023-08-08 19:14:35,075.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df331d0>
+2023-08-08 19:14:35,075.continuous_stock.INFO Calling get_stock_price for GM
+2023-08-08 19:14:35,075.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/GM
+2023-08-08 19:14:35,239.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17dec2450>
+2023-08-08 19:14:35,239.continuous_stock.INFO Calling get_previous_month_price for GM
+2023-08-08 19:14:35,239.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/GM?&interval=1d&range=1d
+2023-08-08 19:14:35,446.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df33bd0>
+2023-08-08 19:14:35,446.continuous_stock.INFO Calling get_stock_price for TM
+2023-08-08 19:14:35,446.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/TM
+2023-08-08 19:14:35,562.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df32910>
+2023-08-08 19:14:35,562.continuous_stock.INFO Calling get_previous_month_price for TM
+2023-08-08 19:14:35,562.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/TM?&interval=1d&range=1d
+2023-08-08 19:14:35,813.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df33110>
+2023-08-08 19:14:35,813.continuous_stock.INFO Calling get_stock_price for F
+2023-08-08 19:14:35,813.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/F
+2023-08-08 19:14:36,276.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df32090>
+2023-08-08 19:14:36,276.continuous_stock.INFO Calling get_previous_month_price for F
+2023-08-08 19:14:36,276.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/F?&interval=1d&range=1d
+2023-08-08 19:14:36,433.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df33ad0>
+2023-08-08 19:14:36,434.continuous_stock.INFO Calling get_stock_price for HMC
+2023-08-08 19:14:36,434.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/HMC
+2023-08-08 19:14:36,685.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df30650>
+2023-08-08 19:14:36,686.continuous_stock.INFO Calling get_previous_month_price for HMC
+2023-08-08 19:14:36,686.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v8/finance/chart/HMC?&interval=1d&range=1d
+2023-08-08 19:14:36,843.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x17df31410>
+2023-08-08 19:14:36,847.continuous_stock.INFO Saving prices to /Users/macbeth/Documents/continuous_intelligence/module_5/cintel-05-live-updates/data/mtcars_stock.csv
